@@ -1,0 +1,95 @@
+/* mammalsband.com style sheet */
+/* 2017-07-03 */
+
+
+/********* MAIN BODY ELEMENTS ************/
+
+body, h1, h2 {    
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+  color: #FFFFFF;
+  background-color: #000000;
+  text-align: center;
+}
+
+h1 {
+  margin: 40px 0 12px 0;
+}
+
+
+ul, p {
+  text-align: left;
+}
+
+ul {
+  margin-left: 40px;
+  list-style-type: none;
+}
+
+/***************** ID'S ******************/
+
+#footer {
+  margin: 12px 0 20px 0; 
+}
+
+#credit {
+  font-size: 9px;
+}
+
+#wrapper {
+  width: 550px;
+  margin: 0 auto;
+}
+
+/**************** LINKS ******************/
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;  
+  font-weight: bold;
+}
+
+a:hover {
+    color: #777777;
+}
+
+
+/**************** DD / DT ******************/
+
+
+dt {
+  width: 130px;
+  padding: 0;
+  position: relative;
+  left: 0px;
+  top: 1em;
+  text-align: right;
+  font-size: 12px;
+}
+
+dd {
+  border-left: 1px solid silver;
+  margin-left: 135px;
+  padding-left: 4px;
+  text-align: left;
+}
+
+dd.title {
+  padding-bottom: 2px;
+}
+
+
+dd.summary {
+  font-size: 10px;
+  font-style: italic;
+  padding-bottom: 14px;
+}
+
+dd.summary-final {
+  font-size: 10px;
+  font-style: italic;
+  padding-bottom: 2px;
+  margin-bottom: 20px;
+
+}
